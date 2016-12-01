@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 3.5.1
--- http://www.phpmyadmin.net
--- 
--- Host: localhost
--- Generation Time: Dec 05, 2013 at 06:45 PM
--- Server version: 5.5.24-log
--- PHP Version: 5.4.3
+
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -53,8 +46,8 @@ PRIMARY KEY (`id`)
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-INSERT INTO user (first_name, last_name, password, username) VALUES ('Kimar','Henry','kimar','henry');
-INSERT INTO user (first_name, last_name, password, username) VALUES ('Shantal','Ennis','shan','enny');
+INSERT INTO user (first_name, last_name, password, username) VALUES ('Bob','Johnson','abc','bobby');
+INSERT INTO user (first_name, last_name, password, username) VALUES ('Jennifer','Anderson','abc','jenny');
 
 SHOW TABLES;
 SELECT * FROM user;
